@@ -1,82 +1,0 @@
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-  <meta charset="UTF-8">
-  <title>ثبت سفارش | CookieTime</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
-<header>
-  <div class="header-container">
-    <h1>CookieTime</h1>
-    <nav>
-      <ul>
-        <li><a href="./contact.html">تماس</a></li>
-        <li><a href="./order.html">ثبت سفارش</a></li>
-        <li><a href="./cafe.html">نحوه سفارش کافه</a></li>
-        <li><a href="./pricing.html">محصولات</a></li>
-        <li><a href="./index.html">خانه</a></li>
-        
-      </ul>
-    </nav>
-  </div>
-</header>
-<section class="order">
-    <div class="order-container">
-      <h2>ثبت سفارش </h2>
-      <p class="order-desc">
-        سفارش شما بعد از ثبت بررسی می‌شود و جهت هماهنگی با شما تماس گرفته خواهد شد.
-      </p>
-  
-      <form class="order-form" id="orderForm">
-        <input type="text" id="customerName" placeholder="نام یا نام کافه" required>
-        <input type="tel" id="customerPhone" placeholder="شماره تماس" required>
-        <div class="products-checkbox">
-          <label>
-            <input type="checkbox" value="کوکی نوتلا">
-            کوکی نوتلا
-            <input type="number" name="quantity-nutella" min="1" value="1">
-          </label>
-  
-          <label>
-            <input type="checkbox" value="بلوندی چاکلت چیپ">
-            بلوندی کلاسیک 
-            <input type="number" name="quantity-blondie" min="1" value="1">
-          </label>
-        </div>
-  
-        <select id="orderType" required>
-          <option value="">نوع سفارش</option>
-          <option value="cafe">سفارش کافه</option>
-          <option value="personal">سفارش شخصی</option>
-        </select>
-  
-        <textarea placeholder="توضیحات (اختیاری)"></textarea>
-        <button type="submit">ثبت سفارش در واتساپ</button>
-      </form>
-      <div class="trust-box">
-        <p>🍪 پخت تازه روزانه با مواد اولیه درجه یک</p>
-        <p>🚚 تحویل هماهنگ‌شده مخصوص کافه‌ها</p>
-        <p>⏰ ثبت سفارش حداقل ۱ روز قبل</p>
-        <p>📦 بسته‌بندی مناسب سرو کافه و مصرف شخصی</p>
-      </div>
-      <br>
-      <p class="order-rules">
-        حداقل سفارش مصرف شخصی 3 عدد و برای کافه ها 10 عدد است . 
-        ثبت سفارش به معنی پذیرش شرایط پخت و زمان تحویل می باشد. 
-      </p>
-    </div>
-  </section>
-  <footer>
-    <div class="footer-container">
-      <p>لذت یک طعم خوشمزه</p>
-      <h4>CookieTime</h4>
-    </div>
-  </footer>
-
-  
-    <script src="./script/script.js"></script>
-</body>
-</html>
