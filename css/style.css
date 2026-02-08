@@ -159,7 +159,10 @@ nav ul li a {
 .hero {
     background-color: #f8efe2;
     padding: 120px 0;
-    height: 85vh;
+    height: 80vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
     background-image: url("../images/belondy.JPG");
     background-size: cover;
     background-position: center;
@@ -914,3 +917,4 @@ footer{
       margin-bottom: 15px;
     }
   }
+
