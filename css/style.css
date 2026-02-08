@@ -917,4 +917,14 @@ footer{
       margin-bottom: 15px;
     }
   }
+/* fix persian text spacing on mobile */
+  @media(max-width: 768px){
+    .hero p {
+        letter-spacing: normal !important;
+        word-spacing: normal !important;
+        line-height: 1.8;
+        font-size: 1.1rem;
+    }
+  }
+
 
